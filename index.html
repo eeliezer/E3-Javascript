@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>E3: Local Storage + Render | Javascript</title>
+</head>
+    <body>
+        <section id="primerSection">
+            <h1>INGRESAR NUMERO PARA CONSULTAR</h1>
+            <div class="contenedorDatos">
+                <form id="form">
+                    <div class="input-contenedor">
+                        <label for="pizzaInput">Ingresar Numero para buscar pizzas disponibles:</label>
+                            <div>
+                                <img class="lupa" src="./assets/img/lupa.png" alt="Lupa">
+                                <input type="number" class="idIngresado" id="pizzaIdIngresado" placeholder="Ingresar número">
+                            </div>
+                        <button class="botonBuscar" id="buscaPizza" type="submit">CONSULTAR</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section id="segundaSection">
+            <div class="cajaConsulta" id="contenedorConsulta">
+            </div>
+            <script src="./assets/main.js"></script>
+        </section>
+        <footer class="piePagina">Realizado por Eliezer Espejo</footer>
+    </body>
+</html>
