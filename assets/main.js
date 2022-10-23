@@ -74,7 +74,7 @@ const pizzasLista = [
 		nombre: "Provolone",
 		ingredientes: ["Salsa de Tomate", "Queso Muzzarella", "Provolone", "Aceitunas"], 
 		precio: 750,
-		imagen : "./assets/img/Pizza-Provolone-300x300.jpg.jpg"		
+		imagen : "./assets/img/Pizza-Provolone-300x300.jpg"		
 	},
 	{
 		id: 11,
